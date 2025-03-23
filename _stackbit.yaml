@@ -1,0 +1,16 @@
+stackbit_version: ~0.3.0
+ssg_name: jekyll
+publish_dir: _site
+pages_dir: .
+models:
+  page:
+    type: page
+    label: Page
+    file: index.md
+    fields:
+      - type: text
+        name: title
+        label: Title
+      - type: markdown
+        name: content
+        label: Content
